@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'https://my-app-ecommerce.herokuapp.com/',
+  baseURL: 'https://ecommerce-server-production-70da.up.railway.app/',
   headers: {
     access_token: localStorage.getItem('access_token')
   }
